@@ -40,7 +40,7 @@ namespace DesafioFundamentos.Models
                 // TODO: Realizar o seguinte cálculo: "precoInicial + precoPorHora * horas" para a variável valorTotal                
                 // *IMPLEMENTE AQUI*
                 int horas = int.Parse(Console.ReadLine());
-                decimal valorTotal = 0; 
+                decimal valorTotal = precoInicial + precoPorHora * horas; 
 
                 // TODO: Remover a placa digitada da lista de veículos
                 // *IMPLEMENTE AQUI*
